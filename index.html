@@ -91,11 +91,11 @@
 	    <h2>Resume Overview</h2>
 	  </header>
 	
-	  <!-- 4-column grid -->
-	  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; text-align: left; gap: 2em;">
+	  <!-- 2-column grid (3 rows) -->
+	  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2em; text-align: left;">
 	
-	    <!-- Experience -->
-	    <div style="flex: 1 1 200px; min-width: 200px;">
+	    <!-- 1행 -->
+	    <div style="flex: 1 1 calc(50% - 2em); min-width: 280px;">
 	      <h3>Professional Experience</h3>
 	      <ul style="list-style: disc; padding-left: 1.2em;">
 	        <li>Arthur D. Little – GTM 전략 프로젝트 RA</li>
@@ -104,90 +104,92 @@
 	      </ul>
 	    </div>
 	
-	    <!-- Skills -->
-	    <div style="flex: 1 1 200px; min-width: 200px;">
+	    <div style="flex: 1 1 calc(50% - 2em); min-width: 280px;">
 	      <h3>Skills & Tools</h3>
 	      <p>R, Python, MS Excel, MS PowerPoint</p>
 	    </div>
 	
-	    <!-- Language -->
-	    <div style="flex: 1 1 200px; min-width: 200px;">
+	    <!-- 2행 -->
+	    <div style="flex: 1 1 calc(50% - 2em); min-width: 280px;">
 	      <h3>Language</h3>
 	      <p>영어 (Native), 한국어 (Native)</p>
 	    </div>
-
-	    <!-- Certifications -->
-	    <div style="flex: 1 1 200px; min-width: 200px;">
+	
+	    <div style="flex: 1 1 calc(50% - 2em); min-width: 280px;">
 	      <h3>Certifications</h3>
 	      <p>투자자산운용사 (2022), OPIc AL (2023)</p>
 	    </div>
 	
+	    <!-- 3행 (Download Button만 한 열) -->
+	    <div style="flex: 1 1 100%; text-align: center; margin-top: 2em;">
+	      <a href="files/RA지원_University_of_Toronto_임은_0317_0531.pdf" class="button small" style="padding: 0.6em 1.5em; font-size: 0.9em;">
+	        📄 이력서 PDF 다운로드
+	      </a>
+	      <p style="font-size: 0.8em; margin-top: 0.3em;">Download Resume (PDF)</p>
+	    </div>
+	
 	  </div>
-
-	  <!-- Download button (smaller, centered) -->
-	  <div style="text-align: center; margin-top: 2em;">
-	    <a href="files/RA지원_University_of_Toronto_임은_0317_0531.pdf" class="button small" style="padding: 0.6em 1.5em; font-size: 0.9em;">
-	      📄 이력서 PDF 다운로드
-	    </a>
-	    <p style="font-size: 0.8em; margin-top: 0.3em;">Download Resume (PDF)</p>
+	</section>
+	
+	  
+    <!-- Project -->
+	<section id="projects" class="main reveal">
+	  <header class="major">
+	    <h2>Projects</h2>
+	    <p>각 프로젝트는 통계적으로 문제를 정의하고,<br />
+	    정량적으로 검증한 후 실질적 인사이트를 도출한 결과물입니다.</p>
+	  </header>
+	
+	  <div class="project-grid" style="display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 2em;">
+	
+	    <!-- 프로젝트 1 -->
+	    <article class="work-item" style="flex: 1 1 calc(33.333% - 2em); min-width: 280px;">
+	      <a href="https://github.com/eunnnie/Economic-Analysis" class="image fit thumb" target="_blank">
+	        <img src="https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg" alt="Health mortality analysis" />
+	      </a>
+	      <h3 style="text-align:left;"><strong>코로나 사망률에 영향을 미치는 복합 요인 분석</strong></h3>
+	      <p style="text-align:left;"><strong>🛠️ 사용 도구: 데이터 분석, 웹크롤링, Python, Numpy, Pandas, Matplotlib, Statsmodels, Beautiful Soup</strong></p>
+	    </article>
+	
+	    <!-- 프로젝트 2 -->
+	    <article class="work-item" style="flex: 1 1 calc(33.333% - 2em); min-width: 280px;">
+	      <a href="https://github.com/eunnnie/12-Periods-Forecasting-Model-Given-Random-Time-Series-Data.git" class="image fit thumb" target="_blank">
+	        <img src="https://images.pexels.com/photos/7873553/pexels-photo-7873553.jpeg" alt="Time series analysis illustration" />
+	      </a>
+	      <h3 style="text-align:left;"><strong>임의 시계열 데이터의 12기간 예측 모델</strong></h3>
+	      <p style="text-align:left;"><strong>🛠️ 사용 도구: R, ARIMA, 시계열 분해, ACF/PACF</strong></p>
+	    </article>
+	
+	    <!-- 프로젝트 3 -->
+	    <article class="work-item" style="flex: 1 1 calc(33.333% - 2em); min-width: 280px;">
+	      <a href="https://github.com/eunnnie/The-Effect-of-the-Combination-of-a-Carbohydrate-and-a-Protein-Sources-on-a-Level-of-Satiety.git" class="image fit thumb" target="_blank">
+	        <img src="https://images.pexels.com/photos/6551090/pexels-photo-6551090.jpeg" alt="Food experiment illustration" />
+	      </a>
+	      <h3 style="text-align:left;"><strong>탄수화물원과 단백질원의 조합이 포만감에 미치는 영향</strong></h3>
+	      <p style="text-align:left;"><strong>🛠️ 사용 도구: R, ANOVA, Factorial Design, TukeyHSD</strong></p>
+	    </article>
+	
+	    <!-- 프로젝트 4 -->
+	    <article class="work-item" style="flex: 1 1 calc(33.333% - 2em); min-width: 280px;">
+	      <a href="https://github.com/eunnnie/Australian-Rain-Prediction-Model.git" class="image fit thumb" target="_blank">
+	        <img src="https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg" alt="Rain prediction illustration" />
+	      </a>
+	      <h3 style="text-align:left;"><strong>호주 강수량 예측 모델 개발</strong></h3>
+	      <p style="text-align:left;"><strong>🛠️ 사용 도구: R, GLMM, Logistic Regression, Visualization</strong></p>
+	    </article>
+	
+	    <!-- 프로젝트 5 -->
+	    <article class="work-item" style="flex: 1 1 calc(33.333% - 2em); min-width: 280px;">
+	      <a href="https://github.com/eunnnie/Relationship-between-COVID-19-Incident-Rates-and-Weather.git" class="image fit thumb" target="_blank">
+	        <img src="https://images.pexels.com/photos/3970330/pexels-photo-3970330.jpeg" alt="COVID and weather analysis" />
+	      </a>
+	      <h3 style="text-align:left;"><strong>기온 및 기후 변수와 코로나 확진율의 상관관계 분석</strong></h3>
+	      <p style="text-align:left;"><strong>🛠️ 사용 도구: R, Correlation Matrix, Regression, ggplot2</strong></p>
+	    </article>
+	
 	  </div>
 	</section>
 	  
-    <!-- Project -->
-    <section id="projects" class="main reveal">
-
-      <header class="major">
-				<h2>Projects</h2>
-				<p>각 프로젝트는 통계적으로 문제를 정의하고,<br />
-				정량적으로 검증한 후 실질적 인사이트를 도출한 결과물입니다.</p>
-			</header>
-			<div class="row">
-				
-	    <!-- 플젝 (사망률 분석) -->
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="https://github.com/eunnnie/Economic-Analysis" class="image fit thumb" target="_blank">
-                    <img src="https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg" alt="Health mortality analysis" />
-                </a>
-                <h3 style="text-align:center;"><strong>코로나 사망률에 영향을 미치는 복합 요인 분석</strong></h3>
-                <p><strong>🛠️ 사용 도구:</strong> 데이터 분석, 웹크롤링, Python, Numpy, Pandas, Matplotlib, Statsmodels, Beautiful Soup</p>
-            </article>
-				
-	    <!-- 타임시리즈 예측 -->
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="https://github.com/eunnnie/12-Periods-Forecasting-Model-Given-Random-Time-Series-Data.git" class="image fit thumb" target="_blank">
-                    <img src="https://images.pexels.com/photos/7873553/pexels-photo-7873553.jpeg" alt="Time series analysis illustration" />
-                </a>
-                <h3 style="text-align:center;"><strong>임의 시계열 데이터의 12기간 예측 모델</strong></h3>
-                <p><strong>🛠️ 사용 도구:</strong> R, ARIMA, 시계열 분해, ACF/PACF</p>
-            </article>
-            
-            <!-- 실험설계 -->
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="https://github.com/eunnnie/The-Effect-of-the-Combination-of-a-Carbohydrate-and-a-Protein-Sources-on-a-Level-of-Satiety.git" class="image fit thumb" target="_blank">
-                    <img src="https://images.pexels.com/photos/6551090/pexels-photo-6551090.jpeg" alt="Food experiment illustration" />
-                </a>
-                <h3 style="text-align:center;"><strong>탄수화물원과 단백질원의 조합이 포만감에 미치는 영향</strong></h3>
-                <p><strong>🛠️ 사용 도구:</strong> R, ANOVA, Factorial Design, TukeyHSD</p>
-            </article>
-            
-            <!-- 기상예측 -->
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="https://github.com/eunnnie/Australian-Rain-Prediction-Model.git" class="image fit thumb" target="_blank">
-                    <img src="https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg" alt="Rain prediction illustration" />
-                </a>
-                <h3 style="text-align:center;"><strong>호주 강수량 예측 모델 개발</strong></h3>
-                <p><strong>🛠️ 사용 도구:</strong> R, GLMM, Logistic Regression, Visualization</p>
-            </article>
-            
-            <!-- 기후연관 -->
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="https://github.com/eunnnie/Relationship-between-COVID-19-Incident-Rates-and-Weather.git" class="image fit thumb" target="_blank">
-                    <img src="https://images.pexels.com/photos/3970330/pexels-photo-3970330.jpeg" alt="COVID and weather analysis" />
-                </a>
-                <h3 style="text-align:center;"><strong>기온 및 기후 변수와 코로나 확진율의 상관관계 분석</strong></h3>
-                <p><strong>🛠️ 사용 도구:</strong> R, Correlation Matrix, Regression, ggplot2</p>
-            </article>
-			</div>
     <!-- Coursework -->	    
     <section id="coursework" class="main reveal">
       <header class="major">
@@ -205,15 +207,6 @@
 	    
     <!-- Footer -->  
     <footer id="footer" class="reveal">
-      <section>
-				<h2>Contact</h2>
-				<dl class="alt">
-					<dt>Email</dt>
-					<dd><a href="mailto:eun.lim03@gmail.com">eun.lim03@gmail.com</a></dd>
-					<dt>LinkedIn</dt>
-					<dd><a href="https://www.linkedin.com/in/eun-lim-50a9321b3/" target="_blank">linkedin.com/in/eun-lim-50a9321b3</a></dd>
-				</dl>
-			</section>
 			<p class="copyright">
 				&copy; Eun Lim Portfolio. Designed with HTML5 UP. All rights reserved.
 			</p>
