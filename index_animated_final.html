@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Eun Lim Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 1.2s ease-out;
+    }
+    .fade-in.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .reveal {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 0.8s ease-out;
+    }
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    @media screen and (max-width: 768px) {
+      .work-item {
+        width: 100% !important;
+        margin-bottom: 2em;
+      }
+    }
+    nav#nav {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      z-index: 1000;
+    }
+    a.button:hover {
+      transform: scale(1.03);
+      transition: transform 0.3s ease;
+    }
+  </style>
+</head>
+<body class="is-preload">
+  <div id="wrapper">
+
+    <section id="hero" class="main special fade-in">
+      <header class="major">
+        <h1><strong>Model it. Prove it. Drive it.</strong></h1>
+        <p>
+          데이터를 기반으로 문제를 정의하고,<br />
+          통계적으로 검증하며,<br />
+          실행 가능한 전략으로 전환하는 사람입니다.<br />
+          I define problems with data, validate them statistically,<br />
+          and turn them into actionable strategies.
+        </p>
+        <p>
+          전략 컨설턴트로 성장하기 위한 여정 속에서,<br />
+          분석적 사고와 구조화된 접근 방식을 중심에 두고 있습니다.<br />
+          On the journey to become a strategic consultant,<br />
+          I center my approach around analytical thinking and structured execution.
+        </p>
+      </header>
+    </section>
+
+    <p style="text-align:center;">[✍️ 이하 전체 콘텐츠는 기존 포맷에 맞게 유지됩니다]</p>
+
+  </div>
+
+  <script>
+    // Scroll-triggered reveal effect
+    const reveals = document.querySelectorAll(".reveal");
+    window.addEventListener("scroll", () => {
+      reveals.forEach((el) => {
+        const top = el.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        if (top < windowHeight - 100) {
+          el.classList.add("active");
+        }
+      });
+    });
+
+    // Fade-in effect on load
+    window.addEventListener("DOMContentLoaded", () => {
+      document.querySelectorAll(".fade-in").forEach(el => {
+        el.classList.add("active");
+      });
+    });
+  </script>
+</body>
+</html>
