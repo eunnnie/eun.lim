@@ -47,12 +47,12 @@
         </p>
       </header>
     </section>
-	  
+
 	<!-- About Me -->
-	<section id="about" class="main reveal" style="display: flex; align-items: center; gap: 3em; flex-wrap: wrap;">
+	<section id="about" class="main reveal" style="display: flex; align-items: flex-start; gap: 3em; flex-wrap: wrap;">
 	  
-	  <!-- 왼쪽: 텍스트 -->
-	  <div style="flex: 1; min-width: 280px;">
+	  <!-- 왼쪽: 텍스트 (60%) -->
+	  <div style="flex: 0 0 60%; min-width: 280px;">
 	    <header class="major">
 	      <h2>About Me</h2>
 	    </header>
@@ -66,22 +66,21 @@
 	         시장 분석, 경쟁사 벤치마킹, Go-To-Market 전략 프로젝트 등을 경험했습니다.</p>
 	    </div>
 	  </div>
-
-	  <!-- 오른쪽: 프로필 이미지 (확대) -->
-	  <div style="flex: 0 0 240px; text-align: center;">
-	    <img src="images/IMG_2592.JPG" alt="Profile" style="width: 220px; height: 220px; object-fit: cover; border-radius: 50%; border: 4px solid white; box-shadow: 0 4px 16px rgba(0,0,0,0.2);" />
-	  </div>
-		
-	<!-- Contact 아이콘: 이메일 + LinkedIn -->
-	<div style="margin-top: 1em; font-size: 0.85em;">
-	  <a href="mailto:eun.lim03@gmail.com" style="margin: 0 0.5em;" title="Email">
-	    <img src="https://img.icons8.com/ios-glyphs/24/ffffff/new-post.png" alt="Email" style="width: 20px; height: 20px;" />
-	  </a>
-	  <a href="https://www.linkedin.com/in/eun-lim-50a9321b3/" target="_blank" style="margin: 0 0.5em;" title="LinkedIn">
-	    <img src="https://img.icons8.com/ios-filled/24/ffffff/linkedin.png" alt="LinkedIn" style="width: 20px; height: 20px;" />
-	  </a>
-	</div>
 	
+	  <!-- 오른쪽: 프로필 사진 + 아이콘 (40%) -->
+	  <div style="flex: 1; min-width: 200px; text-align: center;">
+	    <img src="images/IMG_2592.JPG" alt="Profile" style="width: 100%; max-width: 220px; height: auto; object-fit: cover; border-radius: 50%; border: 4px solid white; box-shadow: 0 4px 16px rgba(0,0,0,0.2);" />
+	
+	    <!-- 연락처 아이콘 -->
+	    <div style="margin-top: 1em; font-size: 0.85em;">
+	      <a href="mailto:eun.lim03@gmail.com" style="margin: 0 0.5em;" title="Email">
+	        <img src="https://img.icons8.com/ios-glyphs/24/ffffff/new-post.png" alt="Email" style="width: 20px; height: 20px;" />
+	      </a>
+	      <a href="https://www.linkedin.com/in/eun-lim-50a9321b3/" target="_blank" style="margin: 0 0.5em;" title="LinkedIn">
+	        <img src="https://img.icons8.com/ios-filled/24/ffffff/linkedin.png" alt="LinkedIn" style="width: 20px; height: 20px;" />
+	      </a>
+	    </div>
+	  </div>
 	</section>
 		
 	  
@@ -91,11 +90,11 @@
 	    <h2>Resume Overview</h2>
 	  </header>
 	
-	  <!-- 2-column grid (3 rows) -->
+	  <!-- 2행 3열 그리드 -->
 	  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2em; text-align: left;">
 	
-	    <!-- 1행 -->
-	    <div style="flex: 1 1 calc(50% - 2em); min-width: 280px;">
+	    <!-- 1행 1열: Experience -->
+	    <div style="flex: 1 1 calc(33.333% - 2em); min-width: 280px;">
 	      <h3>Professional Experience</h3>
 	      <ul style="list-style: disc; padding-left: 1.2em;">
 	        <li>Arthur D. Little – GTM 전략 프로젝트 RA</li>
@@ -104,29 +103,34 @@
 	      </ul>
 	    </div>
 	
-	    <div style="flex: 1 1 calc(50% - 2em); min-width: 280px;">
-	      <h3>Skills & Tools</h3>
-	      <p>R, Python, MS Excel, MS PowerPoint</p>
-	    </div>
-	
-	    <!-- 2행 -->
-	    <div style="flex: 1 1 calc(50% - 2em); min-width: 280px;">
+	    <!-- 1행 2열: Language -->
+	    <div style="flex: 1 1 calc(33.333% - 2em); min-width: 280px;">
 	      <h3>Language</h3>
 	      <p>영어 (Native), 한국어 (Native)</p>
 	    </div>
 	
-	    <div style="flex: 1 1 calc(50% - 2em); min-width: 280px;">
+	    <!-- 1행 3열: Skills -->
+	    <div style="flex: 1 1 calc(33.333% - 2em); min-width: 280px;">
+	      <h3>Skills & Tools</h3>
+	      <p>R, Python, MS Excel, MS PowerPoint</p>
+	    </div>
+	
+	    <!-- 2행 1열: Certifications -->
+	    <div style="flex: 1 1 calc(33.333% - 2em); min-width: 280px;">
 	      <h3>Certifications</h3>
 	      <p>투자자산운용사 (2022), OPIc AL (2023)</p>
 	    </div>
 	
-	    <!-- 3행 (Download Button만 한 열) -->
-	    <div style="flex: 1 1 100%; text-align: center; margin-top: 2em;">
+	    <!-- 2행 2열: 다운로드 버튼 -->
+	    <div style="flex: 1 1 calc(33.333% - 2em); min-width: 280px; text-align: center;">
 	      <a href="files/RA지원_University_of_Toronto_임은_0317_0531.pdf" class="button small" style="padding: 0.6em 1.5em; font-size: 0.9em;">
 	        📄 이력서 PDF 다운로드
 	      </a>
 	      <p style="font-size: 0.8em; margin-top: 0.3em;">Download Resume (PDF)</p>
 	    </div>
+	
+	    <!-- 2행 3열: (비워둠 / 예비 공간) -->
+	    <div style="flex: 1 1 calc(33.333% - 2em); min-width: 280px;"></div>
 	
 	  </div>
 	</section>
@@ -186,6 +190,9 @@
 	      <h3 style="text-align:left;"><strong>기온 및 기후 변수와 코로나 확진율의 상관관계 분석</strong></h3>
 	      <p style="text-align:left;"><strong>🛠️ 사용 도구: R, Correlation Matrix, Regression, ggplot2</strong></p>
 	    </article>
+	    
+	   <!-- 2행 3열: 빈 공간 -->
+    	   <div style="flex: 1 1 calc(33.333% - 2em); min-width: 280px;"></div>	  
 	
 	  </div>
 	</section>
