@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+  <title>Eun Lim Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+  <div id="wrapper">
+    <!-- Header -->
+    <header id="header" class="alt">
+      <span class="logo"><img src="images/logo.svg" alt="" /></span>
+      <h1>임은 | Eun Lim</h1>
+      <p>
+        <strong>통계로 설계하고, 증명하고, 전략을 밀어붙인다.</strong><br />
+        <strong>Model it. Prove it. Drive it.</strong><br /><br />
+        전략과 금융에 강한 통계 기반 분석가<br />
+        Statistical Analyst with Strength in Strategy & Finance<br />
+        토론토대학교 통계학·경제학 전공<br />
+        B.Sc. in Statistics & Economics, University of Toronto<br />
+        영어와 한국어 모두 원어민 수준 소통 능력 보유<br />
+        Native-level fluency in English and Korean<br />
+        📩 eunnie.lim@mail.utoronto.ca
+      </p>
+    </header>
+
+    <!-- Navigation -->
+    <nav id="nav">
+      <ul>
+        <li><a href="#intro" class="active">Introduction</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#why">Why Consulting</a></li>
+      </ul>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section id="intro" class="main">[...Introduction content remains unchanged...]</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="main">[...Projects content remains unchanged...]</section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="main">
+      <header class="major">
+        <h2>이력서 | Resume</h2>
+        <p>
+          전체 이력서 PDF를 아래 링크에서 다운로드하실 수 있습니다.<br />
+          You can download the full resume below.
+        </p>
+        <ul class="actions special">
+          <li><a href="assets/EunLim_Resume.pdf" class="button primary icon solid fa-download" target="_blank">Resume 다운로드 / Download</a></li>
+        </ul>
+      </header>
+
+      <h3>주요 경력 요약 | Career Highlights</h3>
+      <ul>
+        <li><strong>Arthur D. Little</strong> – Go-To-Market 전략 프로젝트 / GTM Strategy Project (2025)</li>
+        <li><strong>CVA Korea</strong> – 디지털 뱅킹 플랫폼 전략 / Digital Banking Strategy (2021)</li>
+        <li><strong>Dunamu (Upbit)</strong> – AML 리스크 평가 및 트랜잭션 모니터링 / AML Risk Analysis (2022)</li>
+      </ul>
+
+      <h3>자격증 및 역량 | Certifications & Skills</h3>
+      <ul>
+        <li>📈 <strong>Certified Investment Manager</strong> – 금융투자협회</li>
+        <li>🧪 <strong>Data Analysis:</strong> R (Expert), Python (Advanced), Excel, Stata</li>
+        <li>🌐 <strong>Languages:</strong> Native-level English & Korean</li>
+      </ul>
+    </section>
+
+    <!-- Why Consulting Section -->
+    <section id="why" class="main">[...Why Consulting content remains unchanged...]</section>
+
+    <!-- Footer -->
+    <footer id="footer">[...Footer content remains unchanged...]</footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
