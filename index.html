@@ -24,10 +24,220 @@
   </style>
 </head>
 <body class="is-preload">
-  <div id="wrapper">
-    <!-- 전체 본문 섹션들 (Hero, About, Resume, Skills, Coursework, Projects, Footer) 포함 -->
-    <!-- 텍스트 문서에서 작업한 모든 섹션이 이 안에 위치 -->
-  </div>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Hero Section -->
+		<section id="hero" class="main special fade-in">
+			<header class="major">
+				<h1><strong>Model it. Prove it. Drive it.</strong></h1>
+				<p>
+					데이터를 기반으로 문제를 정의하고,<br />
+					통계적으로 검증하며,<br />
+					실행 가능한 전략으로 전환하는 사람입니다.<br />
+					I define problems with data, validate them statistically,<br />
+					and turn them into actionable strategies.
+				</p>
+				<p>
+					전략 컨설턴트로 성장하기 위한 여정 속에서,<br />
+					분석적 사고와 구조화된 접근 방식을 중심에 두고 있습니다.<br />
+					On the journey to become a strategic consultant,<br />
+					I center my approach around analytical thinking and structured execution.
+				</p>
+			</header>
+		</section>
+
+		<!-- About Me -->
+		<section id="about" class="main">
+			<header class="major">
+				<h2>About Me<br />자기소개</h2>
+			</header>
+			<div class="content">
+				<p>저는 데이터를 통해 세상을 구조화하고 전략을 설계하는 것을 즐깁니다.<br />
+				I enjoy structuring the world through data and designing strategy.</p>
+				<p>토론토대학교에서 통계학과 경제학을 전공하며 정량적 분석의 기반을 다졌고,<br />
+				Arthur D. Little과 CVA Korea에서 전략 프로젝트에 참여하며<br />
+				시장 분석, 경쟁사 벤치마킹, Go-To-Market 전략 수립 등을 경험했습니다.<br />
+				I majored in Statistics and Economics at the University of Toronto,<br />
+				and worked on strategy projects at Arthur D. Little and CVA Korea,<br />
+				conducting market research, benchmarking, and go-to-market planning.</p>
+				<p>저의 사고방식은 이 한 문장으로 요약됩니다.<br />
+				My approach can be summed up in one phrase:</p>
+				<h3 style="text-align:center;"><strong>Model it. Prove it. Drive it.</strong></h3>
+			</div>
+		</section>
+      		<!-- Resume Section -->
+		<section id="resume" class="main special">
+			<header class="major">
+				<h2>Resume<br />이력서 요약</h2>
+			</header>
+			<ul class="features">
+				<li>
+					<h3>경력 요약<br />Professional Experience</h3>
+					<p>Arthur D. Little 전략 프로젝트 RA<br />RA on strategy project at Arthur D. Little<br />
+					CVA Korea 신규 플랫폼 전략 RA<br />RA on new platform strategy at CVA Korea<br />
+					Dunamu 자금세탁방지 인턴<br />AML intern at Dunamu</p>
+				</li>
+				<li>
+					<h3>보유 역량<br />Skills & Tools</h3>
+					<p>R (고급), Python (중급), SQL, Excel, PowerPoint<br />Advanced in R, Intermediate in Python, SQL, Excel, PowerPoint</p>
+				</li>
+				<li>
+					<h3>언어 능력<br />Language</h3>
+					<p>영어·한국어 모두 원어민 수준<br />Native-level fluency in English and Korean</p>
+				</li>
+				<li>
+					<h3>자격 및 인증<br />Certifications</h3>
+					<p>투자자산운용사 (2022), OPIc AL (2023)<br />Certified Investment Manager (2022), OPIc AL (2023)</p>
+				</li>
+			</ul>
+			<footer class="major">
+				<ul class="actions special">
+					<li><a href="RA지원_University_of_Toronto_임은_0317_0531.pdf" class="button primary icon solid fa-download">이력서 PDF 다운로드<br />Download Resume (PDF)</a></li>
+				</ul>
+			</footer>
+		</section>
+
+		<!-- Project Section -->
+		<section id="projects" class="main special fade-in">
+			<header class="major">
+				<h2>Projects<br />프로젝트</h2>
+				<p>각 프로젝트는 전략 컨설팅 관점에서 문제를 정의하고,<br />
+				정량적으로 검증한 후 실질적 인사이트를 도출한 결과물입니다.<br />
+				Each project reflects structured problem-solving and data-driven insights.</p>
+			</header>
+			<div class="row">
+			<!-- 타임시리즈 예측 -->
+            <article class="col-6 col-12-xsmall work-item">
+                <a href="https://github.com/eunnnie/12-Periods-Forecasting-Model-Given-Random-Time-Series-Data.git" class="image fit thumb" target="_blank">
+                    <img src="https://images.pexels.com/photos/7873553/pexels-photo-7873553.jpeg" alt="Time series analysis illustration" />
+                </a>
+                <h3 style="text-align:center;"><strong>임의 시계열 데이터의 12기간 예측 모델<br />12-Periods Forecasting of Random Time Series</strong></h3>
+                <p><strong>📌 문제 정의 | Problem Statement</strong><br />주기성과 추세를 지닌 비정형 시계열 데이터의 미래 값을 예측하는 모델 설계<br />Designed a model to forecast irregular time series data with seasonal patterns and trends</p>
+                <p><strong>🔍 분석 방법 | Approach</strong><br />시계열 안정성 검정 → 계절 분해 → ARIMA 모델 도출 → 잔차 분석 및 예측 성능 평가<br />Stationarity tests, seasonal decomposition, ARIMA modeling, residual diagnostics</p>
+                <p><strong>💡 주요 인사이트 | Key Insights</strong><br />AIC 기반 최적 모델 도출, 계절성 보정의 중요성 확인<br />Identified ARIMA(1,1,1) as optimal; highlighted need for seasonal correction</p>
+                <p><strong>🛠️ 사용 도구 및 기술 | Tools & Skills</strong><br />R, ARIMA, 시계열 분해, ACF/PACF<br />R, ARIMA, Time Series Decomposition, ACF/PACF</p>
+            </article>
+            
+            <!-- 실험설계 -->
+            <article class="col-6 col-12-xsmall work-item">
+                <a href="https://github.com/eunnnie/The-Effect-of-the-Combination-of-a-Carbohydrate-and-a-Protein-Sources-on-a-Level-of-Satiety.git" class="image fit thumb" target="_blank">
+                    <img src="https://images.pexels.com/photos/6551090/pexels-photo-6551090.jpeg" alt="Food experiment illustration" />
+                </a>
+                <h3 style="text-align:center;"><strong>탄수화물원과 단백질원의 조합이 포만감에 미치는 영향<br />Effect of Carbohydrate-Protein Combination on Satiety</strong></h3>
+                <p><strong>📌 문제 정의 | Problem Statement</strong><br />음식 조합이 포만감에 미치는 영향 검증<br />Examined impact of food combinations on satiety</p>
+                <p><strong>🔍 분석 방법 | Approach</strong><br />3x3 요인 설계 → ANOVA 분석 및 사후검정<br />3x3 factorial design, ANOVA, post-hoc analysis</p>
+                <p><strong>💡 주요 인사이트 | Key Insights</strong><br />곡물+계란 조합이 가장 높은 포만감 유발<br />Grain + egg combination yielded highest satiety score</p>
+                <p><strong>🛠️ 사용 도구 및 기술 | Tools & Skills</strong><br />R, ANOVA, Factorial Design, TukeyHSD<br />R, ANOVA, Factorial Design, TukeyHSD</p>
+            </article>
+            
+            <!-- 기상예측 -->
+            <article class="col-6 col-12-xsmall work-item">
+                <a href="https://github.com/eunnnie/Australian-Rain-Prediction-Model.git" class="image fit thumb" target="_blank">
+                    <img src="https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg" alt="Rain prediction illustration" />
+                </a>
+                <h3 style="text-align:center;"><strong>호주 강수량 예측 모델 개발<br />Australian Rain Prediction Model</strong></h3>
+                <p><strong>📌 문제 정의 | Problem Statement</strong><br />기후 데이터를 통한 강수 여부 예측<br />Predict next-day rainfall using weather data</p>
+                <p><strong>🔍 분석 방법 | Approach</strong><br />변수 탐색 → 다중공선성 제거 → 로지스틱 회귀 및 GLMM<br />Feature selection, multicollinearity removal, logistic regression, GLMM</p>
+                <p><strong>💡 주요 인사이트 | Key Insights</strong><br />전일 기온·습도 중요 변수, GLMM 성능 우수<br />Temp & humidity key predictors; GLMM outperformed baseline</p>
+                <p><strong>🛠️ 사용 도구 및 기술 | Tools & Skills</strong><br />R, GLMM, Logistic Regression, Visualization<br />R, GLMM, Logistic Regression, Visualization</p>
+            </article>
+            
+            <!-- 기후연관 -->
+            <article class="col-6 col-12-xsmall work-item">
+                <a href="https://github.com/eunnnie/Relationship-between-COVID-19-Incident-Rates-and-Weather.git" class="image fit thumb" target="_blank">
+                    <img src="https://images.pexels.com/photos/3970330/pexels-photo-3970330.jpeg" alt="COVID and weather analysis" />
+                </a>
+                <h3 style="text-align:center;"><strong>기온 및 기후 변수와 코로나 확진율 분석<br />Weather Correlation with COVID-19 Rates</strong></h3>
+                <p><strong>📌 문제 정의 | Problem Statement</strong><br />기후 변수와 코로나 확산 간 상관성 분석<br />Analyzed correlation between weather and COVID-19 spread</p>
+                <p><strong>🔍 분석 방법 | Approach</strong><br />상관 분석 → 회귀모형 → 지역 비교 분석<br />Correlation analysis, regression modeling, regional comparison</p>
+                <p><strong>💡 주요 인사이트 | Key Insights</strong><br />평균 기온은 음의 상관, 지역별 편차 존재<br />Avg temp negatively correlated; city-wise variation observed</p>
+                <p><strong>🛠️ 사용 도구 및 기술 | Tools & Skills</strong><br />R, Correlation Matrix, Regression, ggplot2<br />R, Correlation Matrix, Regression, ggplot2</p>
+            </article>
+            
+            <!-- 플젝 (사망률 분석) -->
+            <article class="col-6 col-12-xsmall work-item">
+                <a href="https://github.com/eunnnie/Mortality-Modeling-Based-on-Population-Health-and-Spending-Factors.git" class="image fit thumb" target="_blank">
+                    <img src="https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg" alt="Health mortality analysis" />
+                </a>
+                <h3 style="text-align:center;"><strong>사망률에 영향을 미치는 복합 요인 분석<br />Analyzing Mortality Drivers</strong></h3>
+                <p><strong>📌 문제 정의 | Problem Statement</strong><br />인구 고령화, 오염, 교육, 지출이 사망률에 미치는 영향 분석<br />Studied effects of aging, pollution, education, spending on mortality</p>
+                <p><strong>🔍 분석 방법 | Approach</strong><br />로그 변환 → 다중회귀 → 잔차분석<br />Log transformation, multivariate regression, residual diagnostics</p>
+                <p><strong>💡 주요 인사이트 | Key Insights</strong><br />고령화·오염은 사망률 증가 요인, 교육은 보호 효과<br />Aging & pollution increase risk; education mitigates it</p>
+                <p><strong>🛠️ 사용 도구 및 기술 | Tools & Skills</strong><br />R, Multivariate Regression, Diagnostics, ggplot2<br />R, Multivariate Regression, Diagnostics, ggplot2</p>
+            </article>
+              
+			</div>
+		</section>
+
+		<!-- Skill Radar -->
+		<section id="skills" class="main special fade-in">
+			<header class="major">
+				<h2>Skills Overview<br />기술 역량 요약</h2>
+			</header>
+			<canvas id="skillRadar" width="400" height="400"></canvas>
+			<script>
+				const ctx = document.getElementById('skillRadar');
+				new Chart(ctx, {
+					type: 'radar',
+					data: {
+						labels: ['R', 'Python', 'Excel', 'SQL', 'PowerPoint', 'Stata'],
+						datasets: [{
+							label: 'Skill Level (1–5)',
+							data: [5, 4, 5, 3, 5, 2],
+							fill: true,
+							backgroundColor: 'rgba(54, 162, 235, 0.2)',
+							borderColor: 'rgba(54, 162, 235, 1)',
+							pointBackgroundColor: 'rgba(54, 162, 235, 1)'
+						}]
+					},
+					options: {
+						scales: {
+							r: {
+								min: 0,
+								max: 5,
+								ticks: { stepSize: 1 }
+							}
+						}
+					}
+				});
+			</script>
+		</section>
+
+		<!-- Coursework -->
+		<section id="coursework" class="main special fade-in">
+			<header class="major">
+				<h2>Related Coursework<br />관련 수강 과목</h2>
+			</header>
+			<ul class="features">
+				<li><h3>Data Analysis I<br />데이터 분석 방법론 I</h3><p>회귀 분석 중심의 기초 자료 분석</p></li>
+				<li><h3>Data Analysis II<br />데이터 분석 방법론 II</h3><p>분산분석, 로지스틱 회귀, 시계열, 패널 데이터</p></li>
+				<li><h3>Design of Experiments<br />실험 설계</h3><p>요인설계 및 관찰 연구 설계</p></li>
+				<li><h3>Multivariate Analysis<br />다변량 분석</h3><p>실무 중심의 다변량 자료 해석</p></li>
+				<li><h3>Bayesian Statistics<br />베이지안 통계</h3><p>베이지안 추론 및 계산적 접근법</p></li>
+				<li><h3>Time Series Econometrics<br />시계열 계량경제학</h3><p>예측 및 시계열 모델 이론과 응용</p></li>
+			</ul>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section>
+				<h2>Contact<br />연락처</h2>
+				<dl class="alt">
+					<dt>Email</dt>
+					<dd><a href="mailto:eun.lim03@gmail.com">eun.lim03@gmail.com</a></dd>
+					<dt>LinkedIn</dt>
+					<dd><a href="https://www.linkedin.com/in/eun-lim-50a9321b3/" target="_blank">linkedin.com/in/eun-lim-50a9321b3</a></dd>
+				</dl>
+			</section>
+			<p class="copyright">
+				&copy; Eun Lim Portfolio. Designed with HTML5 UP. All rights reserved.
+			</p>
+		</footer>
+
+	</div>
+</body>
 
   <script>
     const reveals = document.querySelectorAll(".reveal");
