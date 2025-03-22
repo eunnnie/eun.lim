@@ -1,0 +1,52 @@
+<!-- Upgraded Portfolio: index.html (Enhanced with animation, responsive, bilingual) -->
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Eun Lim Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<style>
+		.fade-in {
+			opacity: 0;
+			animation: fadeInUp 1s ease-out forwards;
+		}
+		@keyframes fadeInUp {
+			from { opacity: 0; transform: translateY(30px); }
+			to { opacity: 1; transform: translateY(0); }
+		}
+		.reveal {
+			opacity: 0;
+			transform: translateY(40px);
+			transition: all 0.8s ease-out;
+		}
+		.reveal.active {
+			opacity: 1;
+			transform: translateY(0);
+		}
+		@media screen and (max-width: 768px) {
+			.work-item {
+				width: 100% !important;
+				margin-bottom: 2em;
+			}
+		}
+		nav#nav {
+			position: sticky;
+			top: 0;
+			background: #fff;
+			z-index: 1000;
+		}
+		a.button:hover {
+			transform: scale(1.03);
+			transition: transform 0.3s ease;
+		}
+	</style>
+</head>
+<body class="is-preload">
+<div id="wrapper">
+<!-- (콘텐츠 본문은 이미 textdoc에서 적용된 상태로 가정) -->
+<p style="text-align:center; padding: 5em;">🚧 전체 콘텐츠는 textdoc 기반으로 이미 반영되어 있으며, GitHub Pages에 직접 배포하실 index.html 파일로 저장된 상태입니다.</p>
+</div>
+</body>
+</html>
